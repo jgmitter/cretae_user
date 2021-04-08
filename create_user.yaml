@@ -1,5 +1,5 @@
 ---
-- hosts: users
+- hosts: k8s_masters
   become: yes
 
   vars_prompt:
